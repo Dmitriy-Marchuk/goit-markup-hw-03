@@ -1,0 +1,212 @@
+:root {
+  /* FONT */
+  --primary-font: roboto, sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+
+  /* LOGOTYPE */
+  --logo-font: Raleway;
+  --logo-color: #2196f3;
+  --logo-color-second: #212121;
+  --logo-color-second-futer: #fff;
+
+  /* BACKGROUND COLOR*/
+  --bg-second-color: #2f303a;
+  --bg-color: #fff;
+
+  /* RADIO BUTTONS */
+  --radio-buttons-color: #f5f4fa;
+  --radio-buttons-text-color: #212121;
+
+  --radio-buttons-bg-current: #2196f3;
+  --radio-buttons-text-current: #ffffff;
+}
+
+/* ОБЩИЕ СТИЛИ */
+body {
+  background-color: var(--bg-color);
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* ЛОГОТИП */
+.logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+.logo-second-color {
+  color: var(--logo-color-second);
+}
+.logo-second-color-futer {
+  color: var(--logo-color-second-futer);
+}
+
+/* HEADER */
+.page-header .link {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* NAV */
+.site-nav-list .link {
+  color: var(--primary-text-color);
+}
+.site-nav-list .link.current {
+  color: var(--accent-text-color);
+}
+.page-header .link:hover,
+.page-header .link:focus {
+  color: var(--accent-text-color);
+}
+/* HEADER CONTACT */
+.header-contact-list .link {
+  color: var(--secondary-text-color);
+}
+
+/* HERO */
+.hero {
+  background-color: var(--bg-second-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* HERO BUTTON */
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* СЕКЦИЯ STUDIO */
+.studio-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ */
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* СЕКЦИЯ НАША КОМАНДА */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--bg-second-color);
+}
+.footer-list .item {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-list .map {
+  color: #ffffff;
+}
+.footer-list .mail,
+.footer-list .phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* СТРАНИЦА PORTFOLIO */
+/* RADIO BUTTONS */
+.radio-button {
+  border-radius: 4px;
+  background-color: var(--radio-buttons-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--radio-buttons-text-color);
+  cursor: pointer;
+}
+.radio-button:hover,
+.radio-button:focus {
+  background-color: var(--radio-buttons-bg-current);
+  color: var(--radio-buttons-text-current);
+}
+.radio-button.current {
+  background-color: var(--radio-buttons-bg-current);
+  color: var(--radio-buttons-text-current);
+}
+/* ФИЛЬТР СВЯЗАННЫЙ С RADIO BUTTONS */
+.radio-filter-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.radio-filter-text {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
