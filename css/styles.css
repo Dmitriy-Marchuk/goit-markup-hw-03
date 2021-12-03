@@ -32,7 +32,7 @@ body {
   background-color: var(--bg-color);
   font-family: var(--primary-font);
   color: var(--primary-text-color);
-  /* width: 1600px; */
+  width: 1600px;
 }
 a {
   text-decoration: none;
@@ -113,6 +113,8 @@ ul {
 }
 .site-nav-list .link {
   color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav-list .link.current {
   color: var(--accent-text-color);
@@ -129,6 +131,8 @@ ul {
 }
 .header-contact-list .link {
   color: var(--secondary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* HERO */
