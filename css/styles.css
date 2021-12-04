@@ -342,7 +342,7 @@ ul {
 }
 
 .radio-filter-item {
-  height: 404px;
+  /* height: 404px; */
   width: 370px;
   border: 1px solid #eeeeee;
   margin-right: 30px;
@@ -356,6 +356,7 @@ ul {
 }
 
 .filter-image {
+  display: flex;
   margin-left: -1px;
   margin-top: -1px;
 }
