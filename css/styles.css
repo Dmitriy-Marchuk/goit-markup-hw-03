@@ -32,7 +32,7 @@ body {
   background-color: var(--bg-color);
   font-family: var(--primary-font);
   color: var(--primary-text-color);
-  width: 1600px;
+  /* width: 1600px; */
   margin: 0 auto;
 }
 a {
@@ -194,6 +194,10 @@ ul {
 }
 
 /* СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ */
+.section-doing {
+  margin-top: -94px;
+}
+
 .doing-title {
   font-weight: 700;
   font-size: 36px;
@@ -225,7 +229,7 @@ ul {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
@@ -253,8 +257,13 @@ ul {
 
 .team-item {
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
   background: var(--bg-color);
+}
+
+.team-text-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* FOOTER */
@@ -262,6 +271,14 @@ ul {
   background-color: var(--bg-second-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.container-adress-footer {
+  margin-top: 20px;
 }
 
 .footer-list .item {
@@ -285,10 +302,10 @@ ul {
 .radio-buttons-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .radio-buttons-list .item + .item {
   margin-left: 8px;
-  margin-bottom: 50px;
 }
 
 .radio-button {
@@ -319,6 +336,11 @@ ul {
 }
 
 /* ФИЛЬТР СВЯЗАННЫЙ С RADIO BUTTONS */
+
+.radio-filter-box {
+  padding: 24px 20px;
+}
+
 .radio-filter-item {
   height: 404px;
   width: 370px;
@@ -344,9 +366,8 @@ ul {
 }
 
 .radio-filter-title {
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-bottom: 0;
+  margin-bottom: 4px;
+  margin-top: 0px;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
@@ -356,8 +377,8 @@ ul {
   color: var(--primary-text-color);
 }
 .radio-filter-text {
-  margin-top: 4px;
-  margin-left: 24px;
+  margin-bottom: 0;
+  margin-top: 0;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
